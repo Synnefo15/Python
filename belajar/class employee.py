@@ -16,6 +16,8 @@ class employee:
 
     def apply_raise(self):
         self.pay = int(self.pay*raise_amount)
+    
+    
 
 
 emp_1 = employee('rafi', 'cahya', 200)
